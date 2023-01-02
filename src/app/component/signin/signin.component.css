@@ -1,0 +1,30 @@
+
+input[type=text], input[type=password] {   
+    width: 50%;   
+    margin: 8px 0;  
+    padding: 12px 20px;   
+    display: inline-block;   
+    border: 2px solid green;   
+    box-sizing: border-box;
+    box-align: center;   
+}  
+button:hover {   
+    opacity: 0.7;   
+}   
+.cancelbtn {   
+    width: auto;   
+    padding: 10px 18px;  
+    margin: 10px 5px;  
+}
+
+label{
+    font-size: larger;
+}
+body
+{
+    align-content: center;
+    color: green;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHsAuQMBIgACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAABAgMEAAUGB//EACsQAAICAgIBAgUDBQAAAAAAAAABAhEDIRIxQQRRE1JhcZEFMkIiJHKBwf/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EAB0RAQEBAQACAwEAAAAAAAAAAAABEQISIQMxUUH/2gAMAwEAAhEDEQA/AP2kAQG3mwAMIC6mEYrGYkmTU8U5EpseckjPOb8BmlySrszZJ+yGySM82TXOulJvyBMm2GPY1lpxmvEY8Ruwqq9y66c8tONV9yy2yeJdF8aLrrORSG62xZTUXS7B+572F+hc/lQtN7C3GPb/ANCSzpdaLGOrP6fhS2K5wj5v7EJZW/P5Et9mvH9c78n5Fsmel/SqI/Gn8zJzlbFtnScxw6+TrXq2CxeQLPM+iYDOsSUgYEmRnIabIyDFJNkJsrMhMmsWIzZCZaZGRGMTY0AUVxx2UkaMEf5PwbsMWzPihqKN+GHQ1255Wxx0dLJUaj17nTkl/T0l2zzvV+s41HG6+vl/Ysa6skbJZIYnTdv2ROXqm9LS9keWszfT0UjI3jz9d2/TY8jYOVkFIdSLrnmq2Cc6X1EshkyXJs1KlmKcjuRDmDma1z8XtWGydnWed9NQSTCmLLewJsnIdiMJYlIjMvInJExnGeaJSiaZRJuIxnEeJbFHYFHZoxR2MWRpww2bdY8fLr6+xHEt2S/VMvGEMa7e2HX6iGf1HN0v2+EYPVxk5qfaei2NN7LPFyjvo1HLqeTDBM0QQywOMq8FoYX34LrHgSKY6QzcI/yt+y2K8q8L8jV8QyPjB+70Znfk71PqWpUktGWfqJ+5Y59SLsFmOWeXzS/Inxn7y/Jpj0+oQbAjmc3tGwpigsgMlfROSKWcBBiNGhxFcPYqYzOIrgaHFgcfoEQUC+KOzuBXGthY04ltGL9WX9zH/H/p6GLoh+o4uSU62nskas9PPxQNkMdoTHA2Yo9FZkRmowjUlb8GHLKblvrwl0a89vI34E4KSoF9saTGUSzxuLoPAM48vMrnJkJRN0se2SljK52MMoi0a5YtCfCNM+L6SjqHoFGHoIxSlAaAQ4ajqA5B4hSClQCcTuCKUHiCo8AxjTK8QpBDYtFckecafTVMnEutojpGBY3CXF+DTjQ84cvugRVDUzGWUNu/DFUTXkhtSJcQiThYvCjQoh4geZLH2TeM3ShsV4yudefLEL8FG94/oL8P6FZb6OoejmjLslQGilAcSidBSH4hUQESHSCojUAvE6iiR1EMJR1D0CipgUPBgORKs9KAasMQkbK42qIuNM0iSiEsRSGoZI5oaiM4iOBoktCNGmLEHAHAu4g4hjFQUMczLsRgocFFC0dQwaACQxyCkQBBoNHAwGgUM+gFChRxyBhkN4FSGRGo4PYAoikkqAUatCVQSwGtCFGKys2EOoZgLrOHOC+gGXTAAE4pgHHBBjkMgBRDHHHHAcBhAymOCjkEGOCccRYIEcFAFACABJIA0xSs0GChgBH/2Q==");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
