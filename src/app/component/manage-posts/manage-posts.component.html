@@ -4,14 +4,14 @@
   <button class="btn btn-danger float-end " (click)="logout()">Logout</button>
 <div class="jumbotron">
   <h2 class="display-4">Manage Post</h2>
+
    <p class="lead">
     <a class="btn btn-primary btn-sm" href="/manage-posts" role="button">Manage Posts</a>&nbsp;
     <a class="btn btn-primary btn-sm" href="/manage-comments" role="button">Manage Comments</a>&nbsp;
     <a class="btn btn-primary btn-sm" href="/manage-users" role="button" *ngIf="userRole=='ADMIN'">Manage Users</a>&nbsp;
   </p>
 </div>
-<br><br>
-
+<br>
 <a href="/add-post">
 
 <button type="button" class="btn btn-primary btn-sm">Add Post</button> 
@@ -44,6 +44,5 @@
     
   </tbody>
 </table>
-<br><br><br><br><br>
 </div>
 </body>

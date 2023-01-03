@@ -8,16 +8,19 @@
             </h6>
             <hr class="nomargin-bottom margin-top-10">
             <!-- SEARCH RESULTS -->
-            <div class="clearfix search-result" *ngIf="post"><!-- item -->
-                <h4><a href="/single-post/{{post.postId}}">{{post.postTitle}}</a></h4>
+            <div class="clearfix search-result" *ngIf="post">
+                <h4>{{post.postTitle}}</h4>
+
                 <br>
-                <small class="text-success">www.tourismblog.com</small>
-                <br>
-                <h6><b>Author :</b> {{post.user.userName}} </h6>
-                <br>
+                <h5><b>Author : </b> {{post.user.userName}} </h5>
+                <h6><b>Place : </b> {{post.category.categoryName}} </h6>
+                <h6><b>To see this page :</b><a href="/post/{{post.postId}}">
+                    <small class="text-sucess">www.tourism.bolg</small></a>
+                </h6>
+                    <br>
 
                 <p>{{post.postContent}}</p>
-            </div><!-- /item -->
+                </div>
 
             <div class="clearfix search-result" *ngIf="!post"><!-- item -->
                 <h4>No post found!!</h4>
@@ -25,7 +28,7 @@
             </div><!-- /item -->
 
 
-            <br><br><br><br><br><br>
+            <br>
         </div>
     </div>
 </div>

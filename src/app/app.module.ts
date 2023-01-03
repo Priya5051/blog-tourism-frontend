@@ -18,7 +18,6 @@ import { AddPostComponent } from './component/add-post/add-post.component';
 import { UpdatePostComponent } from './component/update-post/update-post.component';
 import { UpdateCommentComponent } from './component/update-comment/update-comment.component';
 import { SearchResultComponent } from './component/search-result/search-result.component';
-import { ManageCategoryComponent } from './component/manage-category/manage-category.component';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -39,8 +38,7 @@ import { AppRoutingModule } from './app-routing.module';
     AddPostComponent,
     UpdatePostComponent,
     UpdateCommentComponent,
-    SearchResultComponent,
-    ManageCategoryComponent
+    SearchResultComponent
   ],
   imports: [
     BrowserModule,
